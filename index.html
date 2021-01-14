@@ -17,59 +17,62 @@
 </head>
 
 <body>
-    <!--Header Section Start-->
-    <header id="header" class="pb-2">
-        <section id="nav-menu">
-            <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <div class="container-fluid py-3">
-                        <div class="col-md-6 col-sm-12 d-flex">
-                            <a class="navbar-brand" href="#">
-                                <img class="w-75" src="img/logo/Logo.png" alt="">
+    <!--Nav Menu Section Start-->
+    <header id="nav-menu" class="sticky-top">
+        <nav class="container navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="col navbar-brand" href="#">
+                    <img class="w-50" src="img/logo/Logo.png" alt="">
+                </a>
 
-                            </a>
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-                                aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                        </div>
+                <div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-                        <div class="col">
-                            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                                <div class="navbar-nav ms-auto">
-                                    <a class="nav-link text-dark active" aria-current="page" href="#">Home</a>
-                                    <a class="nav-link text-dark ms-4" href="#Product-Section">Product</a>
-                                    <a class="nav-link text-dark ms-4" href="#about-section">About Us</a>
-                                    <a class="nav-link text-dark ms-4" href="#">Contact Us</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-        </section>
-
-        <section class="main-header mb-5">
-            <div class="container">
-                <div class="row row-cols-1 row-cols-md-2 g-4">
-                    <div class="col-md-6 my-auto">
-                        <h1 class="header-h1">BackPack <span class="moon">Moon</span></h1>
-                        <p class="fw-light w-75">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum
-                            cupiditate
-                            cumque voluptate
-                            rerum, iste quidem. </p>
-                        <button class="btn btn-buy-now rounded-3 mt-3 px-4 py-3 text-uppercase">
-                            <i class="fas fa-shopping-cart"></i> Buy Now
-                        </button>
-                    </div>
-                    <div class="col-md-6 mt-3">
-                        <img class="w-75" src="img/header-green.png" alt="">
+                    <div class="collapse navbar-collapse w-100" id="navbarNav">
+                        <ul class="navbar-nav d-flex justify-content-around">
+                            <li class="nav-item ms-4">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item ms-4">
+                                <a class="nav-link" href="#Product-Section">Product</a>
+                            </li>
+                            <li class="nav-item ms-4">
+                                <a class="nav-link" href="#about-section">About us</a>
+                            </li>
+                            <li class="nav-item ms-4">
+                                <a class="nav-link" href="#contact-section">Contact us</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </section>
+        </nav>
     </header>
+    <!--Nav Menu Section End-->
+
+    <!--Header Section Start-->
+    <section id="header" class="main-header py-5">
+        <div class="container pb-5">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col-md-6 my-auto">
+                    <h1 class="header-h1">BackPack <span class="moon">Moon</span></h1>
+                    <p class="fw-light w-75">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum
+                        cupiditate
+                        cumque voluptate
+                        rerum, iste quidem. </p>
+                    <button class="btn btn-buy-now rounded-3 mt-3 px-4 py-3 text-uppercase">
+                        <i class="fas fa-shopping-cart"></i> Buy Now
+                    </button>
+                </div>
+                <div class="col-md-6 mt-3">
+                    <img class="w-75" src="img/header-green.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
     <!--Header Section End-->
 
     <!--Main Start-->
@@ -79,8 +82,8 @@
             <div id="Casual" class="container">
                 <h2 class="py-4">Casual backpack</h2>
                 <div class="row row-cols-1 row-cols-md-3 g-4">
-                    <div class="col">
-                        <div class="my-card shadow">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="my-card shadow h-100">
                             <img class="w-100 p-5" src="img/bags/pngwing 1.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h4 class="card-title">Nike Sportswear Hayward</h4>
@@ -89,15 +92,15 @@
                             </div>
                             <div class="d-flex justify-content-between p-3">
                                 <p class="fs-2 fw-bolder text-success my-auto">$234</p>
-                                <button class="btn btn-buy-now rounded-3 px-4 py-3 text-uppercase">
+                                <button class="btn btn-buy-now rounded-3 px-2 py-1 text-uppercase">
                                     <i class="fas fa-shopping-cart"></i> Buy Now
                                 </button>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col">
-                        <div class="my-card shadow">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="my-card shadow h-100">
                             <img class="w-100 p-5" src="img/bags/casual2.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h4 class="card-title">School backpack</h4>
@@ -105,15 +108,15 @@
                                     industry.</p>
                             </div>
                             <div class="d-flex justify-content-between p-3">
-                                <p class="fs-2 fw-bolder text-success my-auto">$234</p>
-                                <button class="btn btn-buy-now rounded-3 px-4 py-3 text-uppercase">
+                                <p class="fs-2 fw-bolder text-success my-auto">$299</p>
+                                <button class="btn btn-buy-now rounded-3 px-2 py-1 text-uppercase">
                                     <i class="fas fa-shopping-cart"></i> Buy Now
                                 </button>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="my-card shadow">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="my-card shadow h-100">
                             <img class="w-100 p-5" src="img/bags/image 16.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h4 class="card-title">CityLite Security Backpack </h4>
@@ -121,8 +124,8 @@
                                     industry.</p>
                             </div>
                             <div class="d-flex justify-content-between p-3">
-                                <p class="fs-2 fw-bolder text-success my-auto">$234</p>
-                                <button class="btn btn-buy-now rounded-3 px-4 py-3 text-uppercase">
+                                <p class="fs-2 fw-bolder text-success my-auto">$210</p>
+                                <button class="btn btn-buy-now rounded-3 px-2 py-1 text-uppercase">
                                     <i class="fas fa-shopping-cart"></i> Buy Now
                                 </button>
                             </div>
@@ -134,50 +137,50 @@
             <div id="Travel" class="container my-5">
                 <h2 class="py-4">Travel backpack</h2>
                 <div class="row row-cols-1 row-cols-md-3 g-4">
-                    <div class="col">
-                        <div class="my-card shadow">
-                            <img class="w-100 p-5" src="img/bags/pngwing 1.png" class="card-img-top" alt="...">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="my-card shadow h-100">
+                            <img class="w-100 p-5" src="img/bags/travel1.png" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h4 class="card-title">Nike Sportswear Hayward</h4>
+                                <h4 class="card-title">Travel Sport</h4>
                                 <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
                                     industry.</p>
                             </div>
                             <div class="d-flex justify-content-between p-3">
-                                <p class="fs-2 fw-bolder text-success my-auto">$234</p>
-                                <button class="btn btn-buy-now rounded-3 px-4 py-3 text-uppercase">
+                                <p class="fs-2 fw-bolder text-success my-auto">$350</p>
+                                <button class="btn btn-buy-now rounded-3 px-2 py-1 text-uppercase">
                                     <i class="fas fa-shopping-cart"></i> Buy Now
                                 </button>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col">
-                        <div class="my-card shadow">
-                            <img class="w-100 p-5" src="img/bags/casual2.png" class="card-img-top" alt="...">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="my-card shadow h-100">
+                            <img class="w-100 p-5" src="img/bags/travel2.png" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h4 class="card-title">School backpack</h4>
+                                <h4 class="card-title">Jack Wolfskin West Highland</h4>
                                 <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
                                     industry.</p>
                             </div>
                             <div class="d-flex justify-content-between p-3">
-                                <p class="fs-2 fw-bolder text-success my-auto">$234</p>
-                                <button class="btn btn-buy-now rounded-3 px-4 py-3 text-uppercase">
+                                <p class="fs-2 fw-bolder text-success my-auto">$450</p>
+                                <button class="btn btn-buy-now rounded-3 px-2 py-1 text-uppercase">
                                     <i class="fas fa-shopping-cart"></i> Buy Now
                                 </button>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="my-card shadow">
-                            <img class="w-100 p-5" src="img/bags/image 16.png" class="card-img-top" alt="...">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="my-card shadow h-100">
+                            <img class="w-100 p-5" src="img/bags/travel3.png" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h4 class="card-title">CityLite Security Backpack </h4>
+                                <h4 class="card-title">Hiking Trekking Bag Camping</h4>
                                 <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
                                     industry.</p>
                             </div>
                             <div class="d-flex justify-content-between p-3">
-                                <p class="fs-2 fw-bolder text-success my-auto">$234</p>
-                                <button class="btn btn-buy-now rounded-3 px-4 py-3 text-uppercase">
+                                <p class="fs-2 fw-bolder text-success my-auto">$399</p>
+                                <button class="btn btn-buy-now rounded-3 px-2 py-1 text-uppercase">
                                     <i class="fas fa-shopping-cart"></i> Buy Now
                                 </button>
                             </div>
@@ -185,65 +188,76 @@
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
         </section>
-        <!--Product Section Start-->
-
+        <!--Product Section End-->
 
         <!--About Section Start-->
         <section id="about-section" class="py-5">
             <div class="container">
                 <h2>About Us</h2>
                 <div class="row">
-                    <div class="col-md-6">
-                        <div class="row shadow p-3 mt-4 header-card ms-5">
-                            <div class="col-md-2">
-                                <img class="w-100 mt-5" src="img/logo/image 12.png" alt="">
+                    <div class="col-lg-6 col-md-12 mb-5">
+                        <div class="row row-cols-1 row-cols-md-2 shadow p-3 mt-4 header-card ms-5">
+                            <div class="col-md-4 text-md-start text-sm-center">
+                                <img class="abt-img w-100" src="img/logo/image 12.png" alt="">
                             </div>
-                            <div class="col-md-10 my-auto">
+                            <div class="col-md-8 text-md-start text-sm-center">
                                 <h4 class="mt-4">Find the Perfect Fit</h4>
                                 <p>Everybody is different, which is why we offer styles for every body.</p>
                             </div>
                         </div>
 
-                        <div class="row shadow p-3 header-card mt-4 ms-5">
-                            <div class="col-md-2">
-                                <img class="w-100 mt-5" src="img/logo/image 13.png" alt="">
+                        <div class="row row-cols-1 row-cols-md-2 shadow p-3 mt-4 header-card ms-5">
+                            <div class="col-md-4 text-md-start text-sm-center">
+                                <img class="abt-img w-100" src="img/logo/image 13.png" alt="">
                             </div>
-                            <div class="col-md-10 my-auto">
-                                <h4 class="mt-4">Contact Our Seller</h4>
-                                <p>They are here to help you. That's quite literally what we pay them for.</p>
+                            <div class="col-md-8 text-md-start text-sm-center">
+                                <h4 class="mt-4">Find the Perfect Fit</h4>
+                                <p>Everybody is different, which is why we offer styles for every body.</p>
                             </div>
                         </div>
-
-                        <div class="row shadow p-3 header-card mt-4 ms-5">
-                            <div class="col-md-2">
-                                <img class="w-100 mt-5" src="img/logo/image 14.png" alt="">
+                        <div class="row row-cols-1 row-cols-md-2 shadow p-3 mt-4 header-card ms-5">
+                            <div class="col-md-4 text-md-start text-sm-center">
+                                <img class="abt-img w-100" src="img/logo/image 14.png" alt="">
                             </div>
-                            <div class="col-md-10 my-auto">
+                            <div class="col-md-8 text-md-start text-sm-center">
                                 <h4 class="mt-4">Find the Perfect Fit</h4>
                                 <p>Everybody is different, which is why we offer styles for every body.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 mt-5">
+                    <div class="col-lg-6 col-md-12 my-auto">
                         <img class="w-100" src="img/logo/XMLID 1.png" alt="">
                     </div>
                 </div>
             </div>
         </section>
         <!--About Section End-->
+
+
+        <footer>
+            <!--Contact Section Start-->
+            <section id="contact-section" class="contact py-5">
+                <div class="container">
+                    <h2 class="text-center">LET'S STAY IN TOUCH</h2>
+                    <p class="text-center">Get updates on sales, specials and more</p>
+                    <form class="row g-3 d-flex justify-content-center">
+                        <div class="col-auto">
+                            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                        </div>
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-success mb-3">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <!--Contact Section End-->
+
+            <section id="footer" class="text-center">
+                <small class="text-secondary">©2025. Backpack moon Commerce. All rights reserved.</small>
+            </section>
+        </footer>
+
     </main>
 
 
