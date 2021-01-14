@@ -36,6 +36,7 @@ h2{
     color: #363958;
     font-size: 48px;
     font-weight: 700;
+    margin-top: 20px;
 }
 h4{
     color: #363958;
@@ -50,6 +51,14 @@ h4{
     -o-border-radius: 20px;
 }
 .my-card{
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+.product-img{
+    background-color: #F1F1F1;
     border-radius: 25px;
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
