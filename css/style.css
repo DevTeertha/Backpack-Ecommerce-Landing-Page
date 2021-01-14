@@ -49,3 +49,10 @@ h4{
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
 }
+.my-card{
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
